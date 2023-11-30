@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Nunito:ital,wght@1,300;1,400;1,800&family=Poppins:ital,wght@0,100;0,200;0,800;0,900;1,100;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all.2s linear;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62%;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.container .title {
+  font-size: 3.5rem;
+  color: #444;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container .producr-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.container .producr-container .product {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 .5rem 1rem #00000014;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container .producr-container .product img {
+  height: 25rem;
+}
+
+
+.container .producr-container .product:hover img {
+  transform: scale(.9);
+
+}
+
+
+.container .producr-container .product h3 {
+  padding: .5rem 0;
+  font-size: 2rem;
+  color: #635263;
+
+}
+
+.container .producr-container .product:hover h3 {
+  color: rgb(255, 217, 0);
+}
+
+.container .producr-container .product .price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #444;
+}
+
+a {
+  font-size: 18px;
+  padding: 5px 55px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(118, 225, 12);
+  color: #fff;
+}
+
+body.secondpg {
+
+  background-color: #4ECDC4;
+
+}
+
+.number {
+  margin-top: 250px;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+}
